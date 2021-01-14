@@ -1,0 +1,75 @@
+body {
+    background-color: lightgrey;
+}
+
+/* style de l'en-tête */
+
+header {
+    min-height: 200px;
+}
+
+#nav li {
+    line-height: 110px;
+    list-style: none;
+}
+
+#nav li a:hover {
+    font-weight: bold;
+}
+
+/* style du conteneur principal */
+
+/* article */
+h4 {
+    text-indent: 50px;
+}
+
+#corpsDuTexte {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+article p::first-line {
+    text-indent: 50px;
+}
+
+/* aside */
+ol {
+    padding-left: 20px;
+}
+
+/* style du footer */
+
+footer {
+    height: 80px;
+}
+
+footer p {
+    line-height: 80px;
+}
+
+/* ----------------------------------- */
+
+/* MEDIA QUERIES */
+
+/* Tablette */
+@media (min-width: 768px) and (max-width: 991px){
+
+    #nav ul {
+        background-color: lightgrey;
+    }
+    
+    #nav li {
+        line-height: normal;
+    }
+}
+
+/* Mobile  */
+@media (max-width: 576px){
+
+    #nav li {
+        background-color: lightgrey;
+        line-height: normal;
+    }
+    
+}
